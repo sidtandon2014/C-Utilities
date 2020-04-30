@@ -1,0 +1,5 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Azure SQL DB/AutoFailover Groups/FailoverTesting/FailoverTesting/appsettings.json
