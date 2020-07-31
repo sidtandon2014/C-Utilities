@@ -16,21 +16,9 @@ namespace Protobuf
         private static int dataBatches = 100;
         private static int msgIdBatches = 10000;
         private static EventHubClient eventHubClient;
-        //static string eventHubName = "ingress-1-11";
-        //static string eventHubName = "egress-1-11";
-        static string eventHubName = "cdrin-1-11";
+        static string eventHubName = "Test-1-11";
 
-        //static string eventHubName = "cdrin-1-11";
-
-        //static string connectionString = "Endpoint=sb://dev-tan-si-eh-ns-01.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=Fx1KHPxZF+MP+XA7F6yzId7zDn+NfygxrI/dkNcWwGo=";
-
-        //static string connectionString = "Endpoint=sb://dev-tel-si-eh-ns-01.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=deIwFKK40fmEqK0/OHHYMbgnz3ZMNMQBT7SHn8fko+0=";
-
-        static string connectionString = "Endpoint=sb://dev-tan-si-eh-ns-cdrin-01.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=uTfBK7No9nr7R1zRGwECcbMuwxTIHomF58JDwDqA+fY=";
-
-        //static string connectionString = "Endpoint=sb://tbs-si-test-tanla-ing-evthub-01.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=413jvS8xqMrB0ZgeI1RIfidX2bibaJ0dqaEMRZZwLVk=";
-
-        // static string connectionString  = "Endpoint=sb://tanlaeventhub.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=0Qtfie2dFIYzENUhHkS5XzlJX8tEu1qjOG/SkgexZf4=";
+        static string connectionString = "Endpoint=sb://ssKey=uTfBK7No9nr7R1zRGwECcbMuwxTIHomF58JDwDqA+fY=";
 
         static void generateData(int batches)
         {
