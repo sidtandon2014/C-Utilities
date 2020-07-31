@@ -30,3 +30,4 @@
 /EventHub/SendProtobufMessageToEventHub/SendProtobufMessageToEventHub/.vs
 /EventHub/SendProtobufMessageToEventHub/SendProtobufMessageToEventHub/bin/Debug/netcoreapp3.1
 /EventHub/SendProtobufMessageToEventHub/SendProtobufMessageToEventHub/obj
+/EventHub/SendProtobufMessageToEventHub/SendProtobufMessageToEventHub/MessageBuffer.cs
