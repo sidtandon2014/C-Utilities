@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SendProtobufMessageToEventHub", "SendProtobufMessageToEventHub.csproj", "{C731EDA0-4E22-44B2-AD67-AAB6B410AC48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C731EDA0-4E22-44B2-AD67-AAB6B410AC48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C731EDA0-4E22-44B2-AD67-AAB6B410AC48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C731EDA0-4E22-44B2-AD67-AAB6B410AC48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C731EDA0-4E22-44B2-AD67-AAB6B410AC48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D4CF6A4-9BD0-437D-B71B-95802592F19E}
+	EndGlobalSection
+EndGlobal

@@ -6,3 +6,27 @@
 /Azure SQL DB/AutoFailover Groups/FailoverTesting/FailoverTesting/bin/Debug/netcoreapp3.1
 /Azure SQL DB/AutoFailover Groups/FailoverTesting/FailoverTesting/obj
 /Open Hacks/AIPoweredOpenHack/AIPoweredOpenHack
+/Azure Storage/AzureQueueReadingAndWriting/.vs/AzureQueueReadingAndWriting
+/Azure Storage/AzureQueueReadingAndWriting/AzureQueueWriter/bin/Debug/netcoreapp3.1
+/Azure Storage/AzureQueueReadingAndWriting/AzureQueueWriter/obj
+/Azure Storage/AzureQueueReadingAndWriting/Common/obj
+/Azure Storage/AzureQueueReadingAndWriting/Common/bin/Debug/netcoreapp3.1
+/Azure Storage/AzureQueueReadingAndWriting/QueueReader/bin/Debug/netcoreapp3.1
+/C#/GenericClassImplementation/.vs/GenericClassImplementation
+/C#/GenericClassImplementation/GenericClassImplementation/bin/Debug/netcoreapp3.1
+/C#/GenericClassImplementation/GenericClassImplementation/obj
+/Azure Storage/AzureQueueReadingAndWriting/QueueReader/obj/Debug/netcoreapp3.1
+/Azure Storage/AzureQueueReadingAndWriting/QueueReader/obj
+/CosmosDB/Samples/AirlineData/.vs/AirlineData
+/CosmosDB/Samples/AirlineData/AirlineData/bin/Debug/netcoreapp3.0
+/CosmosDB/Samples/AirlineData/AirlineData/obj
+/CosmosDB/Samples/CosmosLearning/.vs/CosmosLearning
+/CosmosDB/Samples/CosmosLearning/CosmosLearning/bin/Debug
+/CosmosDB/Samples/CosmosLearning/CosmosLearning/obj/Debug
+/CosmosDB/Samples/CosmosLearning/packages
+/EventHub/SendEventsToEventHub/SendEvents/.vs/SendEvents
+/EventHub/SendEventsToEventHub/SendEvents/SendEvents/bin/Debug
+/EventHub/SendEventsToEventHub/SendEvents/SendEvents/obj
+/EventHub/SendProtobufMessageToEventHub/SendProtobufMessageToEventHub/.vs
+/EventHub/SendProtobufMessageToEventHub/SendProtobufMessageToEventHub/bin/Debug/netcoreapp3.1
+/EventHub/SendProtobufMessageToEventHub/SendProtobufMessageToEventHub/obj
