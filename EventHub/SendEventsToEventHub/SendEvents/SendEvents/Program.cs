@@ -12,8 +12,8 @@ namespace SendEvents
     {
         private static EventHubClient eventHubClient;
         static string eventHubName = "ehsampledata ";
-        //static string connectionString = "Endpoint=sb://sidtesteventhub.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=B7F/T9XeRsomz9XEMwGlA/xEZFFCGKr+yIgHLati95c=";
-        static string connectionString = "Endpoint=sb://ehsidnamespace.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=vHPFyQEt9OEsz92V6+Olt7TtFGjCEKCYX3I8S82Pvss=";
+        //static string connectionString = "Endpoint=sb://.servicebus.windows.net/;SharedAccessKeyName=RooT9XeRsomz9XEMwGlA/xEZFFCGKr+yIgHLati95c=";
+        static string connectionString = "Endpoint=sb://.servicebus.windows.net/;SharedAccessKeyName=RootManagOEsz92V6+=";
         static void Main(string[] args)
         {
             MainAsync(args).GetAwaiter().GetResult();
