@@ -1,0 +1,44 @@
+------Elastic job
+
+---Queries on job db
+
+CREATE MASTER KEY ENCRYPTION BY PASSWORD='PasswordX';  
+  
+-- Create a database scoped credential.  
+CREATE DATABASE SCOPED CREDENTIAL myjobcred WITH IDENTITY = 'jobcred',
+    SECRET = 'PasswordX'; 
+GO
+
+-------Queries on target db
+
+CREATE LOGIN jobcred WITH PASSWORD='PasswordX';
+GO
+
+CREATE USER jobcred FROM LOGIN jobcred;
+GO
+
+EXEC sp_addrolemember 'db_owner', 'jobcred';
+
+---Queries on job db
+EXEC jobs.sp_add_target_group 'MyTargetGroup';
+
+EXEC [jobs].sp_add_target_group_member
+@target_group_name = N'MyTargetGroup',
+@target_type = N'SqlDatabase',
+@server_name = N'serverName.database.windows.net',
+@database_name =N'TestDB';
+
+EXEC jobs.sp_add_job @job_name='CreateTableTest', @description='Create Table Test'
+
+-- Add job step for create table
+EXEC jobs.sp_add_jobstep @job_name='CreateTableTest',
+@command=N'IF NOT EXISTS (SELECT * FROM sys.tables 
+           	WHERE object_id = object_id(''Test''))
+CREATE TABLE [dbo].[Test]([TestId] [int] NOT NULL);',
+@credential_name='myjobcred',
+@target_group_name='MyTargetGroup'
+
+
+EXEC jobs.sp_start_job 'CreateTableTest'
+
+select * from jobs.job_executions

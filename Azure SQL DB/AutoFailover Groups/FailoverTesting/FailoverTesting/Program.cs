@@ -19,12 +19,13 @@ namespace FailoverTesting
             int index = 0;
             int count = 1000;
             GetAppSettingsFile();
-            insertRows(index);
-            //while (index < count)
-            //{
 
-            //}
-            Console.WriteLine("Hello World!");
+            while (index < count)
+            {
+                insertRows(index);
+                index += 1;
+            }
+            
         }
 
         static void GetAppSettingsFile()
@@ -62,12 +63,12 @@ namespace FailoverTesting
                         connection.Close();
                     }
 
-                    Console.WriteLine("Insert data for index: %d", index);
+                    Console.WriteLine(String.Format("Inserted data for index: {0}", index));
                 }
             }
             catch (SqlException e)
             {
-                Console.WriteLine("Error Occurred %s", e.ToString());
+                Console.WriteLine(String.Format("Error Occurred {0}", e.ToString()));
             }
             finally
             {

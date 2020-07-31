@@ -1,0 +1,29 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "c3BHSo",
+    "name": "help",
+    "description": "global help"
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "id": "TQMAHn"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "DME3nh"
+          },
+          "activity": "${SendActivity_DME3nh()}"
+        }
+      ]
+    }
+  ],
+  "generator": "help.lg"
+}
