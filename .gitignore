@@ -3,3 +3,6 @@
 ################################################################################
 
 /Azure SQL DB/AutoFailover Groups/FailoverTesting/FailoverTesting/appsettings.json
+/Azure SQL DB/AutoFailover Groups/FailoverTesting/FailoverTesting/bin/Debug/netcoreapp3.1
+/Azure SQL DB/AutoFailover Groups/FailoverTesting/FailoverTesting/obj
+/Open Hacks/AIPoweredOpenHack/AIPoweredOpenHack
