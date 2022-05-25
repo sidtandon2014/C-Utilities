@@ -211,8 +211,8 @@ resource_group="ADL_RESOURCE_GROUP", "rgSampleData"
 
 account_name="sasampledata"
 tenant_id="72f988bf-86f1-41af-91ab-2d7cd011db47"
-client_id=""
-client_secret=""
+client_id="2a81532b-016b-4c0e-aa43-bd9b97fbdaba"
+client_secret="qlcF52cl2bo0[Nmo@-KuuVlNF[L9Ucs/"
 
 adlsgen2_datastore = Datastore.register_azure_data_lake_gen2(workspace=ws,
                                                              datastore_name=adlsgen2_datastore_name,
@@ -231,9 +231,9 @@ resource_group="ADL_RESOURCE_GROUP", "rgSampleData"
 
 account_name="sasampledata"
 tenant_id="72f988bf-86f1-41af-91ab-2d7cd011db47"
-client_id=""
-client_secret=""
-account_key = ""
+client_id="2a81532b-016b-4c0e-aa43-bd9b97fbdaba"
+client_secret="qlcF52cl2bo0[Nmo@-KuuVlNF[L9Ucs/"
+account_key = "p5+k7W6bv9OIrCKpOA+p2Lbu8rrm+6D9eb5Fyv3hqO8j1GqmsYupeztdeaefzG7wScuugVbtGPrJn5BBZCqRsg=="
 adlsgen2_datastore = Datastore.register_azure_blob_container(workspace=ws,
                                                              datastore_name=blob_datastore_name,
                                                              account_name=account_name, # ADLS Gen2 account name
