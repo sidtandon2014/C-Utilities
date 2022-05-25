@@ -31,3 +31,7 @@
 /EventHub/SendProtobufMessageToEventHub/SendProtobufMessageToEventHub/bin/Debug/netcoreapp3.1
 /EventHub/SendProtobufMessageToEventHub/SendProtobufMessageToEventHub/obj
 /EventHub/SendProtobufMessageToEventHub/SendProtobufMessageToEventHub/MessageBuffer.cs
+/Azure Storage/AzureStorageTableAPI/AzureStorageTableAPI/bin/Debug/netcoreapp3.1
+/Azure Storage/AzureStorageTableAPI/AzureStorageTableAPI/obj
+/Azure Storage/AzureStorageTableAPI/.vs/AzureStorageTableAPI
+/Azure Storage/AzureStorageTableAPI/AzureStorageTableAPI/Settings.json

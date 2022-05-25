@@ -1,4 +1,0 @@
-F:\Sid\Learnings\Cosmos DB\Samples\ReadChangeFeed\ReadChangeFeed\bin\Debug\netcoreapp3.0\ReadChangeFeed.exe
-F:\Sid\Learnings\Cosmos DB\Samples\ReadChangeFeed\ReadChangeFeed\obj\Debug\netcoreapp3.0\ReadChangeFeed.csprojAssemblyReference.cache
-F:\Sid\Learnings\Cosmos DB\Samples\ReadChangeFeed\ReadChangeFeed\obj\Debug\netcoreapp3.0\ReadChangeFeed.AssemblyInfoInputs.cache
-F:\Sid\Learnings\Cosmos DB\Samples\ReadChangeFeed\ReadChangeFeed\obj\Debug\netcoreapp3.0\ReadChangeFeed.AssemblyInfo.cs
